@@ -3,7 +3,9 @@ AR=ar
 FLAGS= -g -Wall
 LM = -lm
 
-all: ​loopd​: libclassloops.so 
+all: mains maindloop maindrec loopd recursived recursive lopps
+
+​loopd​: libclassloops.so 
  ​recursived​: libclassrec.so 
  ​loops​: libclassloops.a 
  ​recursives​: libclassrec.a
