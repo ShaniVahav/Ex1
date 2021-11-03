@@ -3,7 +3,10 @@ AR=ar
 FLAGS= -g -Wall
 LM = -lm
 
-all: libclassloops.a libclassrec.a libclassloops.so libclassrec.so mains maindloop maindrec
+all: ​loopd​: libclassloops.so 
+ ​recursived​: libclassrec.so 
+ ​loops​: libclassloops.a 
+ ​recursives​: libclassrec.a
 
 #creat libraries
 libclassloops.a: basicClassification.o advancedClassificationLoop.o
