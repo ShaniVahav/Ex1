@@ -5,10 +5,10 @@ LM = -lm
 
 all: loopd recursived recursives loops mains maindloop maindrec
 
-loopd: libclassloops.so 
-recursived: libclassrec.so
-recursives: libclassrec.a
-loops: libclassloops.a
+loopd:libclassloops.so 
+recursived:libclassrec.so
+recursives:libclassrec.a
+loops:libclassloops.a
 
 #creat libraries
 libclassloops.so: basicClassification.o advancedClassificationLoop.o
