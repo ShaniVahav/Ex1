@@ -45,6 +45,8 @@ for (int i = num1; i <= num2; i++){
      printf("%d",i);
     }  
 }
+    
+printf("\n");
 return 0;
 }
 
