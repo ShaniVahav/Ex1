@@ -5,7 +5,6 @@
 
 void main(){
     int num1, num2;
-    printf("insert 2 numbers \n");
     scanf("%d", &num1);
     scanf("%d", &num2);
 
